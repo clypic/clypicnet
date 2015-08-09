@@ -1,0 +1,42 @@
+body {
+    font: 12pt/1.17em 'Arial';
+    margin: 0; padding: 0;
+    /*background: lightgreen;*/
+}
+
+header {
+
+	font-size: 2em;
+	color: #000;
+	text-transform: uppercase;
+
+	margin: 2em; padding: 0;
+}
+
+footer {
+
+	font-size: .82em;
+	color: #fff;
+
+	position: fixed; bottom: 0; left: 0;
+
+	border: 1pt solid #fff;
+	margin: 1em 2ex 2em 2ex; padding: 1em 1ex;
+
+}
+
+header:hover {
+	background: rgba(255,255,255,0.2);
+	cursor: pointer;
+}
+
+a,
+a:link, a:active, a:visited, a:hover {
+	color: #fff;
+}
+
+#bgvid {
+	position: absolute; top: 0; left: 0;
+    width: 100%; height: inherit; background: rgb(0, 0, 0);
+    z-index: -1;
+}
